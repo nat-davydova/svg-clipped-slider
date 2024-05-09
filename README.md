@@ -1,2 +1,2 @@
-# svg-masking-loader
+# svg-clipped-slider
 (in progress)
