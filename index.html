@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="./src/assets/triangle.svg" />
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
     <title>SVG Clipped Slider Concept</title>
   </head>
   <body>
@@ -12,9 +13,14 @@
       <div class="slider__slides">
 
         <div class="slide">
-          <picture class="slide__img">
-            <img src="" alt="">
-          </picture>
+          <div class="slide__img">
+            <img
+              src="src/assets/slides/slide1/slide1-full.jpg"
+              srcset="src/assets/slides/slide1/slide1-full.jpg 1x, src/assets/slides/slide1/slide1-full-2x.jpg 2x"
+              alt="A sleek, minimalist desktop setup featuring a large monitor with a vivid red wallpaper, flanked by speakers, a Corsair mouse pad, keyboard, and a plant for decoration."
+            >
+          </div>
+
           <div class="slide__content">
             <div class="slide__navigation">
               <button type="button">Prev</button>
