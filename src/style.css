@@ -1,5 +1,6 @@
 html,
 body {
+    font-family: "Noto Sans", sans-serif;
     overflow-x: hidden;
 }
 
@@ -86,4 +87,17 @@ body {
 
 .slide__nav-btn:hover svg {
     fill: var(--accent);
+}
+
+.slide__title {
+    color: var(--light)
+}
+
+.slide__title {
+    margin-top: 10%;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
 }
